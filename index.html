@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator in HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Calculator</h1>
+      <input type="text" class="display" id="result"/>
+
+      <div class="buttons">
+        <button class="operator" data-value="AC" id="clear">AC</button>
+        <button class="operator" data-value="DEL">DEL</button>
+        <button class="operator" data-value="%">%</button>
+        <button class="operator" data-value="/">/</button>
+
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button class="operator" data-value="*">*</button>
+
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button class="operator" data-value="-" id="subtract">-</button>
+
+        <button data-value="1" id="1">1</button>
+        <button data-value="2" id="2">2</button>
+        <button data-value="3" id="3">3</button>
+        <button class="operator" data-value="+" id="add">+</button>
+
+        <button data-value="0">0</button>
+        <button data-value="00">00</button>
+        <button data-value=".">.</button>
+        <button class="operator" data-value="=" id="equal">=</button>
+
+      </div>
+      <p id="description">this is a calculator app</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>
